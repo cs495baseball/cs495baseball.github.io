@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitch Grader</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #db3437;
+            color: #fff;
+        }
+
+        main {
+            margin-top: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Capstone Project Sprint 3: Group F, Pitch Grader</h1>
+        <p>Audrey Kim, Andrew Renninger, Andrew Helms</p>
+    </header>
+    <main>
+        <section>
+            <h2>Project Overview</h2>
+            <p>
+                Our goal was to to create an application for The University of Alabama's baseball team to allow pitches to be graded based on stipulations, ranges, and weights.
+                <ul>
+                  <li>Manual grading of pitches is time-consuming.</li>
+                  <li>Our application will enable faculty to use a standardized grading system, ensuring accurate results without the potential for human error associated with manual grading.</li>
+                  <li>We want to also output percentages for a pitcher, advising them on what pitches to throw for their best results, based on their current arsenal</li>
+              </ul>
+            </p>
+        </section>
 
-<iframe src="Capstone_Sprint3.pdf" width="1280" height="729" style="border: none;"></iframe>
+        <section>
+            <h2>Technologies Used</h2>
+            <p>
+              NPM, Javascript, Vue.js, Bootstrap, Github Pages
+            </p>
+        </section>
+
+        <section>
+            <h2>Key Features</h2>
+            <p>
+              <ul>
+                <li><strong>Web Application:</strong></li>
+                <ul>
+                    <li><strong>Pitch grader input fields:</strong> Various fields for each pitch type to allow the user to enter the data for multiple pitches</li>
+                    <li><strong>Pitch grader input field for handedness:</strong> Allow the user to select whether each pitch was left or right-handed before entering the input fields, as this affects the weights associated with each pitch type</li>
+                    <li><strong>Pitch grader option for multiple pitches:</strong> Allow the user to enter pitch details for multiple pitches before calculating grades for each</li>
+                    <li><strong>Pitch grader calculator:</strong> Based on given data, the application will provide a grade based on predefined weights for each pitch the user has entered</li>
+                    <li><strong>Pitch weights editor:</strong> A page designed to allow the user to upload a different JSON file that defines each pitch type and weights associated with them</li>
+                </ul>
+            </ul>
+            </p>
+        </section>
+
+
+        <section>
+            <h2>Future Enhancements</h2>
+            <p>
+                In the future, we could utilize machine learning to calculate the optimal pitch grading ranges, as well as the recommended throw percentages for a pitcher based on their arsenal, possibly even for a certain opponent.
+            </p>
+        </section>
+
+      <div id="content" style="margin:auto">
+        <h2><a href="https://youtu.be/pbbYqVNnAq0">Link to demo video</a></h2>
+        <br/>
+        <h3>Sprint 3 Presentation:</h3>
+        <iframe src="Capstone_Sprint3.pdf" width="1280" height="729" style="border: none;"></iframe>
+      </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Audrey Kim, Andrew Renninger, Andrew Helms. All rights reserved.</p>
+    </footer>
 </body>
 </html>
